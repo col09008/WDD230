@@ -84,7 +84,7 @@ nav ul li a:hover {
     display: none;
 }
 
-.clearfix:after {
+.clear:after {
     content: "";
     display: table;
     clear: both;

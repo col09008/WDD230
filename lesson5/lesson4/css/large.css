@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 960px) {
 
 
     header img {
@@ -24,6 +24,10 @@
         padding: 1rem 2rem;
     }
 
+    nav ul li a.selected {
+        border-bottom: #333333 solid 3px;
+    }
+
 
     main {
         margin: auto;
@@ -42,13 +46,5 @@
         padding: 1rem;
         padding-right: 0rem;
     }
-    table {
-        display: table;
-        border-collapse: separate;
-        box-sizing: border-box;
-        text-indent: initial;
-        border-spacing: 2px;
-
-    }
-
+    
 }

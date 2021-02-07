@@ -38,8 +38,4 @@
         background-color: #333333;
         color: #fff;
     }
-
-    nav ul li a.selected {
-        border-bottom: #333333 solid 3px;
-    }
 }

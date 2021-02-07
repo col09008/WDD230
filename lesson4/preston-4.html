@@ -1,65 +1,83 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Preston home Website page for Paul Jessee WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet"  href="css/medium.css">
-    <link rel="stylesheet"  href="css/large.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap" rel="stylesheet">
-<link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAP///wAA0P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREREREREAEAAAAAAAAQACIiIiIiIgACIiIiIiIiIAIiIiIiIiIgAiIiIiIiIiAAIiIiIiIiAAEAACIiIAAwAREQIiIgMzABERECIgMzMAERERAAMzMwAREREDMzMzABERERAzMzAAEREREQAAAQAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAA" rel="icon" type="image/x-icon" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Preston home Website page for Paul Jessee WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAP///wAA0P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREREREREAEAAAAAAAAQACIiIiIiIgACIiIiIiIiIAIiIiIiIiIgAiIiIiIiIiAAIiIiIiIiAAEAACIiIAAwAREQIiIgMzABERECIgMzMAERERAAMzMwAREREDMzMzABERERAzMzAAEREREQAAAQAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAA"
+      rel="icon"
+      type="image/x-icon"
+    />
     <title>Preston Town</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
+      <div>
+        <img src="images/weathericon.png" alt="logo" />
         <div>
-            <img src="images/weathericon.png" alt="logo">
-            <div>
-                <h1>Preston Weather</h1>
-                <p>Come experience all four seasons</p>
-            </div>
+          <h1>Preston Weather</h1>
+          <p>Come experience all four seasons</p>
         </div>
-        <button onclick="toggleMenu()">&#9776;</button>
+      </div>
+      <button onclick="toggleMenu()">&#9776;</button>
     </header>
 
     <nav class="clear">
-        <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="selected">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
     </nav>
 
     <main>
-        <section class="mainSection">
-            <div class="placeHolders">
-                <h4>Hero Image</h4>
-            </div>
-            <div class="placeHolders">
-                <h4>5 day Forecast</h4>
-            </div>
-            <div class="placeHolders">
-                <h4>Article</h4>
-            </div>
-            <div class="placeHolders">
-                <h4>Contact Information</h4>
-            </div>
-        </section>
+      <section class="mainSection">
+        <h2>The Town of Preston</h2>
+        <div class="herodiv">
+          <div class="hero-ph">
+            <img src="images/heroimage.jpg" alt="townview" />
+          </div>
+          <section class="weathersummary">
+            <h3>Weather Summary</h3>
+            <p>Label: Value</p>
+            <p>Label: Value</p>
+            <p>Label: Value</p>
+          </section>
+        </div>
+        <div class="forecast">
+          <h4>5 day Forecast</h4>
+        </div>
+        <div class="news">
+          <h4>Article</h4>
+        </div>
+        <div class="contact">
+          <h4>Contact Information</h4>
+        </div>
+      </section>
 
-        <footer>
-            <p> &#169; Outdoor Temp | Karina Weaver |
-                Current Date: <span id="currentDate"></span></p>
-            <script src="js/script.js"></script>
-        </footer>
+      <footer>
+        <p>
+          &#169; Outdoor Temp | Karina Weaver | Current Date:
+          <span id="currentDate"></span>
+        </p>
+        <script src="js/script.js"></script>
+      </footer>
     </main>
-</body>
-
+  </body>
 </html>

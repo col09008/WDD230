@@ -9,3 +9,10 @@ document.getElementById("year").textContent = new Date().toLocaleDateString(
 document.getElementById("date").textContent = date;
 console.log(date);
 
+WebFont.load({
+  google: {
+    families: [
+       'fontfamilynameofyourchoice'
+    ]
+  }
+});

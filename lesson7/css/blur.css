@@ -1,7 +1,7 @@
 h1{
     text-align: center;
 }
-img{
+.galleryimages{
 width: 300px;
 height: 400px;
 display: block;
@@ -11,7 +11,7 @@ filter:none;
 transition: filter 1s;
 }
 
-img[data-src]{
+.galleryimages[data-src]{
     width: 300px;
     height: 400px;
     display: block;

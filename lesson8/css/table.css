@@ -1,0 +1,50 @@
+body {
+    margin: 100px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*center*/
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px grey;
+}
+td {
+    border: 1px solid grey;
+    padding: 5px 10px 5px 10px;
+}
+
+tfoot tr td {
+    padding: 5px 10px 5px 10px;
+}
+
+tbody tr:nth-child(2), tbody tr:nth-child(4), tbody tr:nth-child(6) {
+    background-color: #e7ffed;
+}
+
+tbody tr:first-child, tbody tr:nth-child(3), tbody tr:nth-child(5) {
+    background-color: #e7f0ed;
+}
+
+/*ACME Wildwest*/
+thead tr td:first-child {
+    background-color: #7fb9c2;
+    color: black;
+}
+/*$7500*/
+#money {
+    color: white;
+    background-color: #628ca6;
+}
+tr th {
+    background-color: #628ca6;
+    color: white;
+    padding: 5px 0px;
+    border: 2px solid grey;
+}
+tfoot {
+    background-color: #7fb9c2;
+    font-size: 0.7em;
+}
+

@@ -1,6 +1,6 @@
 body {
     margin: 100px auto;
-    font-family: 'Ubuntu', sans-serif;
+    
 }
 /*center*/
 table {
@@ -9,6 +9,7 @@ table {
     margin-right: auto;
     text-align: center;
     box-shadow: 5px 5px 5px grey;
+    font-family: 'Ubuntu', sans-serif;
 }
 td {
     border: 1px solid grey;

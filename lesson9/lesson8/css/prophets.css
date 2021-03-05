@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #4C243B ;
+  font-family: 'Shippori Mincho B1', serif;
+}
+h1{
+    color:#EFE6E8; 
+}
+h2 {
+   font-family: 'Shippori Mincho B1', serif;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 15px;
+    padding: 15px;
+    background-color: #EFE6E8;
+    box-shadow: 0 0 15px #0C0809;
+    font-family: serif;
+}
+
+section {
+    border: 1px solid #AC7B84;
+    background-color: #AC7B84;
+    max-width: 400px;
+    padding-bottom: 5px;
+    margin: 3px;
+    text-align: center;
+}
+section img {
+    width: 65%;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+@media (min-width: 520px){ 
+.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+}
+@media (min-width: 900px){ 
+    .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

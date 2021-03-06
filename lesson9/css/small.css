@@ -210,3 +210,7 @@ border-left: blue solid 6px;
   margin-bottom: 20px;
   width: 50%;
 }
+h2 {
+  margin-bottom: -20px;
+}
+

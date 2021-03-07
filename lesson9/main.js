@@ -26,7 +26,7 @@ fetch(requestURL)
       rain.textContent= "Rainfall: " + towns[i].averageRainfall;
 
 
-      img.setAttribute('src', 'https://loremflickr.com/350/400/idaho');
+      img.setAttribute('src', 'https://loremflickr.com/350/400/mountains');
       img.setAttribute('alt', h3);
 
       card.appendChild(texts)

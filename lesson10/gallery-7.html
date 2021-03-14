@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Preston home Website page for Paul Jessee WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link rel="stylesheet" href="css-preston/normalize.css" />
+    <link rel="stylesheet" href="css-preston/small.css" />
+    <link rel="stylesheet" href="css-preston/medium.css" />
+    <link rel="stylesheet" href="css-preston/large.css" />
+    <link rel="stylesheet" href="css/blur.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAP///wAA0P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREREREREAEAAAAAAAAQACIiIiIiIgACIiIiIiIiIAIiIiIiIiIgAiIiIiIiIiAAIiIiIiIiAAEAACIiIAAwAREQIiIgMzABERECIgMzMAERERAAMzMwAREREDMzMzABERERAzMzAAEREREQAAAQAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAA"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <title>Preston Town</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="images/weathericon.png" alt="logo" />
+        <div>
+          <h1>Preston Weather</h1>
+          <p>Come experience all four seasons</p>
+        </div>
+      </div>
+      <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+
+    <nav class="clear">
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="home-wireframes.html">Wireframe</a></li>
+        <li><a href="preston-10.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="imagegallery">
+        <div class="galleryimage">
+          <picture>
+            <img
+              src="images/greyplaceholder.jpg"
+              data-src="images/lightningone.jpg"
+              alt="lightning"
+            />
+          </picture>
+
+          <p>Lightning storm</p>
+        </div>
+        <div class="galleryimage">
+          <picture>
+            <img
+              src="images/greyplaceholder.jpg"
+              data-src="images/cold.jpg"
+              alt="cold"
+            />
+          </picture>
+          <p>Crisp morning breath, cold</p>
+        </div>
+        <div class="galleryimage">
+          <picture>
+            <img
+              src="images/greyplaceholder.jpg"
+              data-src="images/lightningtwo.jpg"
+              alt="lightning"
+            />
+          </picture>
+          <p>Lightning storm</p>
+        </div>
+          <div class="galleryimage">
+            <picture>
+              <img
+                src="images/greyplaceholder.jpg"
+                data-src="images/lightningthree.jpg"
+                alt="lightning"
+              />
+            </picture>
+            <p>Lightning storm</p>
+          </div>
+          <div class="galleryimage">
+            <picture>
+              <img
+                src="images/greyplaceholder.jpg"
+                data-src="images/sunny.jpg"
+                alt="sunny"
+              />
+            </picture>
+            <p>Sunshine all day long</p>
+          </div>
+          <div class="galleryimage">
+            <picture>
+              <img
+                src="images/greyplaceholder.jpg"
+                data-src="images/brisk.jpg"
+                alt="brisk"
+              />
+            </picture>
+            <p>Sunshine all day long</p>
+          </div>
+          <div class="galleryimage">
+            <picture>
+              <img
+                src="images/greyplaceholder.jpg"
+                data-src="images/showers.jpg"
+                alt="showers"
+              />
+            </picture>
+            <p>Scattered rain showers</p>
+          </div>
+          <div class="galleryimage">
+            <picture>
+              <img
+                src="images/greyplaceholder.jpg"
+                data-src="images/snow.jpg"
+                alt="snow"
+              />
+            </picture>
+            <p>Snow icicles</p>
+          </div>
+          <div class="galleryimage">
+            <picture>
+              <img
+                src="images/greyplaceholder.jpg"
+                data-src="images/cabin.jpg"
+                alt="cabin"
+              />
+            </picture>
+            <p>Sunshine all day long</p>
+          </div>
+          <div class="galleryimage">
+          <picture>
+            <img
+              src="images/greyplaceholder.jpg"
+              data-src="images/warm.jpg"
+              alt="warm"
+            />
+          </picture>
+          <p>Overcast but warm</p>
+        </div>
+      </div>
+      <footer>
+        <p>
+          &#169; Outdoor Temp | Karina Weaver | Current Date:
+          <span id="currentDate"></span>
+        </p>
+      </footer>
+    </main>
+    <script src="JS/javascript.js"></script>
+    <script src="JS/script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+h1 {
+  
+  font-size: 18px;
+}
+
+p,
+h6,
+h5,
+h4,
+h3,
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  line-height: 10px;
+  color: white;
+  padding: 12px;
+}
+
+header div {
+  display: flex;
+}
+
+header div div {
+  display: block;
+  margin-left: 10px;
+}
+
+header button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+header img {
+  height: 45px;
+  margin: 0 5px;
+}
+header h1 {
+  align-items: center;
+}
+
+nav {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: goldenrod;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333333;
+}
+
+nav ul li a:hover {
+  background-color: #333333;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.main-sections {
+  background-color: goldenrod;
+  padding: 25px;
+  border: #333333 1px;
+}
+
+.weathersummary {
+  background-color: goldenrod;
+  border: 1px solid #333333;
+  margin-top: 2rem;
+  
+}
+.display li {
+  list-style: none;
+}
+
+h2,
+h4 {
+  text-align: center;
+  padding: 10px;
+}
+
+.news,
+.contact {
+  background-color: goldenrod;
+  border: 1px solid #333333;
+  margin-top: 2rem;
+}
+.forecast {
+  display: none;
+}
+footer {
+  background-color: blue;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 25px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  
+}
+
+.pimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+.prestonimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding: 20px;
+}
+.prestoninfo {
+  text-align: center;
+  line-height: 200%;
+}
+.imagegallery{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 30px;
+  justify-content: center;
+}
+
+
+form {
+  background-color: goldenrod;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+form legend {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px; 
+  font-size: 15px;
+  font-weight: bold;
+}
+form label.top {
+  display: block;
+  padding-top: 15px;
+}
+
+.danger{
+margin-top:30px;
+margin-bottom: 15px;
+}
+
+form label.top input, form label.top select, textarea {
+  display: block;
+  padding: 10px;
+  width: 80%;
+  max-width: 70%;
+  background-color: white;
+  
+} 
+
+form button {
+border: solid 1px black;
+background-color: white;
+color: black;
+border-radius: 10px;
+padding: 10px;
+margin: 10px 0 15px 15px;
+max-width: 10rem;
+}
+
+form label.top input:required {
+border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+border-left: blue solid 6px;
+}  
+.cabin{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+}
+h2 {
+  margin-bottom: -20px;
+}
+

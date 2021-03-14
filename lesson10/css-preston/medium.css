@@ -1,0 +1,70 @@
+@media only screen and (min-width: 815px) {
+  header img {
+    height: 60px;
+    margin: 0 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+ 
+  h4 {
+    text-align: center;
+  }
+  header button {
+    display: none;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul {
+    flex-direction: row;
+    margin-left: 3%;
+  }
+
+  .hide {
+    display: flex;
+  }
+
+  nav ul li a {
+    display: list-item;
+    padding: 1rem 1.3rem;
+    font-size: 16px;
+  }
+
+  nav ul li a:hover {
+    background-color: #333333;
+    color: #fff;
+  }
+
+  nav ul li a.selected {
+    border-bottom: #333333 solid 3px;
+  }
+ 
+  .pimage {
+    float: right;
+    width: 400px;
+    padding: 15px;
+  }
+
+  .weathersummary {
+    position: relative;
+    background: radial-gradient(gray, white);
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0 0 30px #111;
+    width: 20%;
+    opacity: 0.8;
+    top: -350px;
+    left: 90px;
+    
+  }
+
+
+  .imagegallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

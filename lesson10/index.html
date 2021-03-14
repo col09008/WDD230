@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Preston home Website page for Karina Weaver WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/blur.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAP///wAA0P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREREREREAEAAAAAAAAQACIiIiIiIgACIiIiIiIiIAIiIiIiIiIgAiIiIiIiIiAAIiIiIiIiAAEAACIiIAAwAREQIiIgMzABERECIgMzMAERERAAMzMwAREREDMzMzABERERAzMzAAEREREQAAAQAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAA"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <script src="main.js"></script>
+    <title>Preston Town</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="images/weathericon.png" alt="logo" />
+        <div>
+          <h1>Preston Weather</h1>
+          <p>Come experience all four seasons</p>
+        </div>
+      </div>
+      <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+
+    <nav class="clear">
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li><a href="home-wireframes.html">Wireframe</a></li>
+        <li><a href="preston-10.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <picture>
+        <source
+          srcset="images/roadmedium.jpg"
+          media="(max-width: 1018px) and (min-width: 815px)"
+        />
+        <source srcset="images/roadlarge.jpg" media="(min-width: 1018px)" />
+        <img src="images/roadsmall.jpg" alt="heroimage" class="responsive" />
+      </picture>
+      <div class="cards"></div>
+      <div class="news">
+        <h2>Local News</h2>
+        <img class="pimage" src="images/snowmountain.jpeg" alt="snow on mountains">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
+          vero at ipsam ratione voluptas impedit minima eius ullam odio, nulla,
+          blanditiis doloribus. Vitae, voluptates! Cum rem maiores deserunt fuga
+          voluptatem?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Consequuntur veniam vero repellat delectus quibusdam iste voluptatum
+          earum ullam labore velit eum ducimus perferendis et sequi, dolores sit
+          commodi! Reprehenderit, eius. Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Facilis voluptas totam nihil, perferendis beatae
+          inventore aliquam rem nisi sequi placeat fuga tempora quis laudantium
+          voluptatibus, voluptatem commodi voluptate dolorum consectetur. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate
+          culpa, fugiat ex dignissimos quae neque esse! Doloremque repellat iste
+          omnis, molestiae exercitationem placeat amet atque modi ab voluptatem
+          corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Magni pariatur reprehenderit nisi minima velit nostrum error
+          recusandae explicabo eveniet eius! Consequuntur rerum accusamus quam
+          placeat ab magni tempore possimus. Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Quo temporibus deserunt quod nisi
+          officiis magnam necessitatibus dolore debitis, omnis, a suscipit ad
+          eius voluptates minus iste quibusdam, corrupti tempore harum! Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Provident libero a
+          cumque tenetur voluptas beatae eaque numquam dignissimos suscipit
+          blanditiis. Et similique voluptatem at nemo voluptates totam porro
+          commodi dolorem?Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Magnam rem consequatur quibusdam nemo hic eum ea laboriosam
+          voluptatibus quae dolorum voluptates in quia, doloribus nihil aperiam
+          ab nostrum dolores vel.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &#169; Outdoor Temp | Karina Weaver | Current Date:
+        <span id="currentDate"></span>
+      </p>
+    </footer>
+  </body>
+</html>

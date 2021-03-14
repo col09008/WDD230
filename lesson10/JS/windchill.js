@@ -1,4 +1,4 @@
-const temp = document.getElementById('temp').innerHTML;
+const temp = document.getElementById('temperature').innerHTML;
 const windspeed = document.getElementById('windspeed').innerHTML;
 
 
@@ -8,4 +8,4 @@ let windchill = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(windspeed, .16)) + (
   } else {
      windchill = "N/A";
   }
-document.getElementById('windchill').innerHTML = windchill;
+document.getElementById('chilly').innerHTML = windchill;

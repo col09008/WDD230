@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Preston home Website page for Karina Weaver WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+      content="Idaho Weather home Website page for Karina Weaver WDD 230: Web Frontend Development at Brigham Young University - Idaho"
     />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css-preston/normalize.css" />
+    <link rel="stylesheet" href="css-preston/small.css" />
+    <link rel="stylesheet" href="css-preston/medium.css" />
+    <link rel="stylesheet" href="css-preston/large.css" />
     <link rel="stylesheet" href="css/blur.css" />
-    <link rel="stylesheet" href="css/home.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap"
@@ -23,7 +22,6 @@
       rel="icon"
       type="image/x-icon"
     />
-    <script src="main.js"></script>
     <title>Idaho Weather</title>
   </head>
 
@@ -36,16 +34,15 @@
           <p>Come experience all four seasons</p>
         </div>
       </div>
-      <button onclick="toggleMenu()">&#9776;</button>
     </header>
-
-    <nav class="clear">
-      <ul id="primaryNav" class="hide">
-        <li><a href="#">Home</a></li>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="home-wireframes.html">Wireframe</a></li>
         <li><a href="preston-10.html">Preston</a></li>
-        <li><a href="">Soda Springs</a></li>
-        <li><a href="fish">Fish Haven</a></li>
+        <li><a href="soda-springs.html">Soda Springs</a></li>
+        <li><a href="fish-haven.html">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery-7.html">Gallery</a></li>
       </ul>
@@ -93,12 +90,15 @@
           ab nostrum dolores vel.
         </p>
       </div>
-    </main>
+    
     <footer>
       <p>
         &#169; Outdoor Temp | Karina Weaver | Current Date:
         <span id="currentDate"></span>
       </p>
     </footer>
+    <script src="JS/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </main>
   </body>
 </html>

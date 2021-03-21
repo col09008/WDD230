@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Soda Springs home Website page for Karina Weaver WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link rel="stylesheet" href="css-preston/normalize.css" />
+    <link rel="stylesheet" href="css-preston/small.css" />
+    <link rel="stylesheet" href="css-preston/medium.css" />
+    <link rel="stylesheet" href="css-preston/large.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAP///wAA0P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREREREREAEAAAAAAAAQACIiIiIiIgACIiIiIiIiIAIiIiIiIiIgAiIiIiIiIiAAIiIiIiIiAAEAACIiIAAwAREQIiIgMzABERECIgMzMAERERAAMzMwAREREDMzMzABERERAzMzAAEREREQAAAQAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAA"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <title>Soda Springs Town</title>
+  </head>
+
+  <body>
+    <div id="pancake"></div>
+    <header>
+      <div>
+        <img src="images/weathericon.png" alt="logo" />
+        <div>
+          <h1>Soda Springs Weather</h1>
+          <p>Come experience all four seasons</p>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="home-wireframes.html">Wireframe</a></li>
+        <li><a href="preston-10.html">Preston</a></li>
+        <li><a href="soda-springs.html">Soda Springs</a></li>
+        <li><a href="fish-haven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    
+      <h2>The Town of Soda Springs</h2>
+      <picture>
+        <source
+          srcset="images/warm.jpg"
+          media="(max-width: 1018px) and (min-width: 815px)"
+        />
+        <source srcset="images/warm.jpg" media="(min-width: 1018px)" />
+        <img src="images/warm.jpg" alt="heroimage" class="responsive" />
+      </picture>
+    
+        <div class="weathersummary">
+          <h3>Weather Summary</h3>
+          <ul class="display">
+          <li>
+            Currently:
+            <span id="currently"></span>
+          </li>
+          <li>
+            Temp:
+            <span id="temperature"></span>
+            &#176;F
+          </li>
+          <li>
+            Wind Chill:
+            <span id="chilly"></span>
+        </li>
+          <li>
+            Humidity:
+            <span id="humidity"></span>
+            %
+          </li>
+          <li>
+            Wind Speed:
+            <span id="windspeed"></span>
+            mph
+          </li>
+          </ul>
+        </div>
+
+      <h4 class="forecastTitle">5 Day Forecast</h4>
+      <div class="forecastdiv">
+        <div class="daysofweek">
+          <div id="day1"></div>
+          <img src="#" alt="" id="image1" />
+          <div id="temperature1"></div>
+        </div>
+        <div class="daysofweek">
+          <div id="day2"></div>
+          <img src="#" alt="" id="image2" />
+          <div id="temperature2"></div>
+        </div>
+        <div class="daysofweek">
+          <div id="day3"></div>
+          <img src="#" alt="" id="image3" />
+          <div id="temperature3"></div>
+        </div>
+        <div class="daysofweek">
+          <div id="day4"></div>
+          <img src="#" alt="" id="image4" />
+          <div id="temperature4"></div>
+        </div>
+        <div class="daysofweek">
+          <div id="day5"></div>
+          <img src="#" alt="" id="image5" />
+          <div id="temperature5"></div>
+        </div>
+      </div>
+      <section class="townEvents">
+        <h3>Upcoming Town Events</h3>
+        <br>
+      </section>
+      <div class="news">
+        <h4>What's New in Soda Springs?</h4>
+        <img class="pimage" src="images/cold.jpg" alt="cold" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          accusamus vero non cum voluptates dolorum consequuntur consectetur
+          eveniet quas, exercitationem quisquam, aliquam iste saepe asperiores
+          laudantium maxime dolore doloribus. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Quia perferendis nam quasi unde dicta
+          veniam ducimus quisquam ullam at facere voluptatum doloremque nobis
+          amet consequatur, quo hic iusto sapiente reprehenderit. Lorem ipsum
+          dolor sit, amet consectetur adipisicing elit. Delectus animi optio ab
+          quo tempore dolore fuga assumenda eligendi sunt minus, commodi odit
+          aperiam! Itaque dicta accusantium, commodi culpa quae libero! Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolores
+          accusantium nemo deleniti excepturi facere dolorum nisi illum tenetur,
+          nobis totam quas enim nihil hic ut suscipit voluptatibus incidunt.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          placeat voluptate modi quisquam, porro maiores eius perspiciatis rem
+          sapiente dicta quos laudantium aspernatur doloribus in labore numquam
+          ab tempore debitis. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Officiis magni dignissimos pariatur vel at aliquid facere saepe,
+          neque illo modi ducimus accusantium sapiente eaque porro omnis enim!
+          Alias, ut facilis.
+        </p>
+      </div>
+      <div class="contact">
+        <h4>Contact Information</h4>
+        <div class="columns">
+          <img class="prestonimage" src="images/preston.jpeg" alt="preston" />
+          <p class="prestoninfo">
+            Idaho Weather<br />
+            123 West South Street<br />
+            525-585-6953<br />
+            www.idahoweather.com
+          </p>
+        </div>
+      </div>
+      <footer>
+        <p>
+          &#169; Outdoor Temp | Karina Weaver | Current Date:
+          <span id="currentDate"></span>
+        </p>
+      </footer>
+    
+   <script src="JS/windchill.js"></script> 
+   <script src="JS/sodasprings.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </body>
+</html>

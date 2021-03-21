@@ -249,3 +249,6 @@ border-left: blue solid 6px;
 .galleryimage:hover{
 box-shadow: 0 0 50px grey;
 }
+.cards p {
+  padding: 0;
+}

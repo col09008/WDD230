@@ -17,6 +17,10 @@ display: grid;
  table{
      width: 80%;
  }
-
+ .contactus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
 
 }

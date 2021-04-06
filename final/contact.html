@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/large.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=Slabo+27px&display=swap" rel="stylesheet">
-    <script src="JS/main.js"></script>
+ 
     <title>City Of Cypress</title>
   </head>
 
@@ -46,33 +46,62 @@
         <source srcset="images/cityhall.jpg" media="(min-width: 1018px)" />
         <img src="images/cityhall.jpg" alt="heroimage" class="responsive" />
       </picture>
-<h1>Contact Us</h1> 
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13257.550964647282!2d-118.03400911198642!3d33.828109917406806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2ec0ccba4113%3A0x4078b9657fa4c39c!2sCypress%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1617591694509!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-<fieldset>
-          <legend>Contact Us</legend>
-          <label class="top" for="title"
+<div class="contactus">
+  <div class="container">
+    <form method="get" action="confirmed.html">    
+        <fieldset>
+          <legend>Contact Us</legend> 
+          <label class="bottom" for="title"
             >First Name(required):
             <input type="text" name="name" id="name" required
           /></label>
-          <label class="top" for="name"
+          <label class="bottom" for="name"
             >Last Name(required):
             <input type="text" name="name" id="name" required
           /></label>
-          <label class="top" for="email"
+          <label class="bottom" for="email"
             >Email(required):
             <input type="email" name="email" id="email" required
           /></label>
-          <label class="top" for="phone"
+          <label class="bottom" for="phone"
             >Cell Phone: <input type="tel" name="phone" id="phone"
           /></label>
-          <label class="top" for="comment"
-            >Comment:</label> <textarea id="comment" name="comment" rows="5" cols="30"></textarea>
+          <label class="bottom" for="comment"
+            >Comment:</label> <textarea id="comment" name="comment" rows="5" cols="25"></textarea>
+            <button type="submit" onclick="confirmed.html" value="storm report">Submit</button>
         </fieldset>
-
-    
-            
-            <script src="JS/home.js"></script>
+      </div>
+      <div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13257.550964647282!2d-118.03400911198642!3d33.828109917406806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2ec0ccba4113%3A0x4078b9657fa4c39c!2sCypress%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1617591694509!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   </div>
+  </div> 
+<footer>
+  <div class="contact">
+    <div class="address">
+      <h4>Contact Information</h4>
+      Cypress Chamber of Commerce<br />
+      9200 Valley View<br />
+      Cypress, CA 90630<br />
+      (714) 484-6015
+  </div>
+  <div class=social>
+      <div class="facebook">
+        <a href="https://www.facebook.com/" target="_blank"><img src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Ffacebook.png?1602301347206" alt="Facebook"></a>
+      </div>
+      <div class="instagram">
+        <a href="https://www.instagram.com/" target="_blank"><img src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Finstagram.png?1602301368507" alt="Instagram"></a>
+      </div>
+      <div class="youtube">
+        <a href="https://www.youtube.com/" target="_blank"><img src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Fyoutube.png?1602301386367" alt="Youtube"></a>
+      </div>
+    </div>
+  <p class="footerp">
+  &#169; Final Project WDD 230 | Karina Weaver | Current Date:
+  <span id="currentDate"></span>
+  </p>
+  </footer>
+            <script src="JS/main.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
           </main>
           </body>

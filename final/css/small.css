@@ -245,12 +245,12 @@ form legend {
   font-weight: bold;
   text-align: center;
 }
-form label.top {
+form label.top, form label.bottom {
   padding: 15px;
   font-size: 30px;
 }
 
-form label.top input, form label.top select, textarea {
+form label.top input, form label.top select, textarea, form label.bottom input, form label.bottom select {
   display: block;
   padding: 10px;
   width: 80%;
@@ -270,14 +270,13 @@ max-width: 10rem;
 height: 50px;
 width: 200px;
 font-size: 30px;
-
 }
 
-form label.top input:required {
+form label.top input:required, form label.bottom input:required {
 border-left: red solid 6px;
 }
 
-form label.top input:required:valid {
+form label.top input:required:valid, form label.bottom input:required:valid {
 border-left: blue solid 6px;
 } 
 .members{
@@ -292,3 +291,12 @@ border-left: blue solid 6px;
   margin-bottom: 20px;
   width: 50%;
 }
+
+
+.map{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+

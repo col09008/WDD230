@@ -1,0 +1,41 @@
+{
+    "local": [
+      {
+        "name": "Juice City",
+        "number": "(714) 220-0053"
+      },
+      {
+        "name": "Albertacos Mexican Food",
+        "number": "(714) 220-2292"
+      },
+      {
+        "name": "Exotic Birds By Fran",
+        "full1": "(714) 761-0868"
+      },
+      {
+        "name": "Artistic Nails",
+        "full1": "(714) 484-0050"
+      },
+      {
+        "name": "Fashion Q",
+        "full1": "(714) 934-8552"
+      },
+      {
+        "name": "Volcano Burger",
+        "full1": "(714) 430-6004"
+      },
+      {
+        "name": "John's Cypress",
+        "full1": "(714) 527-0403"
+      },
+      {
+        "name": "Jeep Wrangler - 2 door",
+        "full1": "$85",
+        "half1": "$65",
+        "full2": "$90",
+        "half2": "$70",
+        "persons": 4,
+        "image": "jeep2door.png"
+      }
+    ]
+  }

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cypress California home Website page for Karina Weaver WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Slabo+27px&display=swap" rel="stylesheet">
+    <script src="JS/main.js"></script>
+    <title>City Of Cypress</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="images/cypresslogo.png" alt="logo" />
+        <div>
+          <h1>City of Cypress</h1>
+          <h5>Education - Cooperation - Progress</h5>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cypress.html">Cypress</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="action">
+      <picture>
+        <source
+          srcset="images/cityhall.jpg"
+          media="(max-width: 1018px) and (min-width: 815px)"
+        />
+        <source srcset="images/cityhall.jpg" media="(min-width: 1018px)" />
+        <img src="images/cityhall.jpg" alt="heroimage" class="responsive" />
+      </picture>
+      <a href="join.html" target="_blank">
+        <button class="join">Join Now</button>
+    </div>
+      <h2>Our Purpose</h2>
+      <p class="purpose">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis 
+        enim saepe odit accusamus doloribus minima est cumque repellendus
+        voluptatibus possimus! Quidem voluptas, numquam natus perspiciatis 
+        sunt quod et a hic? Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Nihil, dolor. Laboriosam molestiae necessitatibus nulla
+        consequatur commodi, nemo possimus dolores? Quas repellat asperiores molestias
+        nisi molestiae, cumque aperiam eum aspernatur laudantium. Lorem ipsum dolor sit 
+        amet, consectetur adipisicing elit. Doloribus tenetur ad vel, facere non earum
+         harum sequi labore odio beatae alias, atque repudiandae. Impedit delectus culpa
+          voluptatem iste nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing
+           elit. Laudantium perspiciatis quia, a soluta odit rerum sit magni asperiores
+            minima aspernatur saepe quas sunt nostrum provident necessitatibus eligendi 
+            dolor? Omnis, qui! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Repellat, alias ratione? In officiis nesciunt, optio perspiciatis eaque 
+             suscipit, amet illo corporis fugit dolor quae quia perferendis dicta harum,
+              voluptas sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Quos id natus, laboriosam consequuntur eum maiores aperiam veritatis est 
+              temporibus sit, necessitatibus libero impedit quibusdam provident tempore 
+              autem unde minima! Facere?</p>
+        <div class="container">
+              <div class="weathersummary">
+            <h3>Weather Summary</h3>
+            <ul class="display">
+            <li>
+              Currently:
+              <span id="currently"></span>
+            </li>
+            <li>
+              Temp:
+              <span id="temperature"></span>
+              &#176;F
+            </li>
+            <li>
+              Humidity:
+              <span id="humidity"></span>
+              %
+            </li>
+            </ul>
+        </div>
+        <div class="forecastdiv">
+          <h4 class="forecastTitle">3 Day Forecast</h4>
+          <div class="daysofweek">
+            <div id="day1"></div>
+            <img src="#" alt="" id="image1" />
+            <div id="temperature1"></div>
+          </div>
+          <div class="daysofweek">
+            <div id="day2"></div>
+            <img src="#" alt="" id="image2" />
+            <div id="temperature2"></div>
+          </div>
+          <div class="daysofweek">
+            <div id="day3"></div>
+            <img src="#" alt="" id="image3" />
+            <div id="temperature3"></div>
+          </div>
+          </div>
+       </div>
+      <div class="cards"></div>
+        <h2>Upcoming Summer Events</h2>
+       <div class="upcomingevents">
+        <img class="family" src="images/family.jpeg" alt="family">
+        <div class="events"> 
+        <table>
+          <tbody>
+          <tr>
+          <td>Summer Concerts on the Green</td>
+          <td>June-September</td>
+          <td>Cypress Civic Center Green 5275 Orange Avenue</td>
+          <td>(714) 229-6780</td>
+          </tr>
+          <tr>
+          <td>Cypress Community Festival </td>
+          <td>July</td>
+          <td>Oak Knoll Park 5700 Orange Avenue</td>
+          <td>(714) 229-6780</td>
+          </tr>
+          <tr>
+          <td>Fireworks Celebration</td>
+          <td>July 4th</td>
+          <td>Joint Forces Training Base 11200 Lexington Drive</td>
+          <td>(714) 229-6700</td>
+          </tr>
+          </tbody>
+          </table>
+        </div> 
+        </div>
+    <footer>
+      <div class="contact">
+        
+        <div class="address">
+          <h4>Contact Information</h4>
+          Cypress Chamber of Commerce<br />
+          9200 Valley View<br />
+          Cypress, CA 90630<br />
+          (714) 484-6015
+      </div>
+        <div class=social>
+            <div class="facebook">
+              <a href="https://www.facebook.com/" target="_blank"><img src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Ffacebook.png?1602301347206" alt="Facebook"></a>
+            </div>
+            <div class="instagram">
+              <a href="https://www.instagram.com/" target="_blank"><img src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Finstagram.png?1602301368507" alt="Instagram"></a>
+            </div>
+            <div class="youtube">
+              <a href="https://www.youtube.com/" target="_blank"><img src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Fyoutube.png?1602301386367" alt="Youtube"></a>
+            </div>
+          </div>
+          </div> 
+          <p class="footerp">
+        &#169; Final Project WDD 230 | Karina Weaver | Current Date:
+        <span id="currentDate"></span>
+      </p>  
+          </footer>
+     
+    <script src="JS/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </main>
+  </body>
+</html>

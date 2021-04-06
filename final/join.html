@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cypress California home Website page for Karina Weaver WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>City Of Cypress</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="images/cypresslogo.png" alt="logo" />
+        <div>
+          <h1>City of Cypress</h1>
+          <h5>Education - Cooperation - Progress</h5>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cypress.html">Cypress</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form method="get" action="confirmed.html">
+        <fieldset>
+          <legend>Application</legend>
+          <label class="top" for="title"
+            >Title: <input type="text" name="title" id="title"
+          /></label>
+          <label class="top" for="title"
+            >First Name(required):
+            <input type="text" name="name" id="name" required
+          /></label>
+          <label class="top" for="name"
+            >Last Name(required):
+            <input type="text" name="name" id="name" required
+          /></label>
+          <label class="top" for="email"
+            >Email(required):
+            <input type="email" name="email" id="email" required
+          /></label>
+          <label class="top" for="phone"
+            >Cell Phone: <input type="tel" name="phone" id="phone"
+          /></label>
+          <label class="top" for="bizname"
+            >Business Name(required):
+            <input type="text" name="bizname" id="bizname" required
+          /></label>
+          <label class="top" for="bizaddress"
+            >Business Address:
+            <input type="text" name="bizaddress" id="bizaddress"></label>
+          <label class="top"
+            >Business Website: <input type="url" id="homepage" name="homepage"
+          /></label>
+          <label class="top" for="bizdescription"
+            >Business Description:</label> <textarea id="bizdescription" name="bizdescription" rows="5" cols="30"></textarea>
+          <label class="top" for="membership"
+            >Membership Level*:
+            <input type="text" name="type" id="membership" list="members"
+          /></label>
+          <datalist id="members">
+            <option value="Non-profit ($100)"></option>
+            <option value="Bronze ($200)"></option>
+            <option value="Silver ($400)"></option>
+            <option value="Gold ($1000)"></option>
+          </datalist>
+          <button type="submit" onclick="confirmed.html" value="storm report">Submit</button>
+          <p class="members">*Non Profit includes directory listings and business trainings<br>
+              Bronze include directory listings, bianual business trainings, 1-2 social media posts per month<br>
+              Silver includes directory listings, business trainings, 2-4 social media posts per month, and luncheon tickets<br>
+              Gold includes directory listings, business trainings, 2-4 social media posts per month, luncheon tickets, and sponsorships with advertising
+          </p>
+        </fieldset>
+        
+      </form>
+
+      <footer>
+        <p>
+          &#169; Final Project WDD 230 | Karina Weaver | Current Date:
+          <span id="currentDate"></span>
+        </p>
+      </footer>
+    </main>
+
+    <script src="JS/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </body>
+</html>

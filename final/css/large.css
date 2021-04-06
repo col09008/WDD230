@@ -1,0 +1,22 @@
+@media only screen and (min-width: 960px) {
+
+.upcomingevents{
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+}  
+.family{
+    grid-column: 1/2;
+}  
+.events{
+    grid-column: 2/2; 
+}
+ table{
+     width: 80%;
+ }
+
+
+}

@@ -47,68 +47,70 @@
         <source srcset="images/cityhall.jpg" media="(min-width: 1018px)" />
         <img src="images/cityhall.jpg" alt="heroimage" class="responsive" />
       </picture>
-      <a href="join.html" target="_blank">
-        <button class="join">Join Now</button>
-    </div>
+      <input class="join" type=button onClick="location.href='join.html'"
+      value='Join Now'>
+      </div>
       <h2>Our Purpose</h2>
-      <p class="purpose">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis 
-        enim saepe odit accusamus doloribus minima est cumque repellendus
-        voluptatibus possimus! Quidem voluptas, numquam natus perspiciatis 
-        sunt quod et a hic? Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Nihil, dolor. Laboriosam molestiae necessitatibus nulla
-        consequatur commodi, nemo possimus dolores? Quas repellat asperiores molestias
-        nisi molestiae, cumque aperiam eum aspernatur laudantium. Lorem ipsum dolor sit 
-        amet, consectetur adipisicing elit. Doloribus tenetur ad vel, facere non earum
-         harum sequi labore odio beatae alias, atque repudiandae. Impedit delectus culpa
-          voluptatem iste nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing
-           elit. Laudantium perspiciatis quia, a soluta odit rerum sit magni asperiores
-            minima aspernatur saepe quas sunt nostrum provident necessitatibus eligendi 
-            dolor? Omnis, qui! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Repellat, alias ratione? In officiis nesciunt, optio perspiciatis eaque 
-             suscipit, amet illo corporis fugit dolor quae quia perferendis dicta harum,
-              voluptas sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Quos id natus, laboriosam consequuntur eum maiores aperiam veritatis est 
-              temporibus sit, necessitatibus libero impedit quibusdam provident tempore 
-              autem unde minima! Facere?</p>
-        <div class="weather">
-              <div class="weathersummary">
-            <h3>Weather Summary</h3>
-            <ul class="display">
-            <li>
-              Currently:
-              <span id="currently"></span>
-            </li>
-            <li>
-              Temp:
-              <span id="temperature"></span>
-              &#176;F
-            </li>
-            <li>
-              Humidity:
-              <span id="humidity"></span>
-              %
-            </li>
-            </ul>
-        </div>
-        <div class="forecastdiv">
-          <h4 class="forecastTitle">3 Day Forecast</h4>
-          <div class="daysofweek">
-            <div id="day1"></div>
-            <img src="#" alt="" id="image1" />
-            <div id="temperature1"></div>
-          </div>
-          <div class="daysofweek">
-            <div id="day2"></div>
-            <img src="#" alt="" id="image2" />
-            <div id="temperature2"></div>
-          </div>
-          <div class="daysofweek">
-            <div id="day3"></div>
-            <img src="#" alt="" id="image3" />
-            <div id="temperature3"></div>
-          </div>
-          </div>
-       </div>
+      <p class="purpose">Our purpose is to is to help businesses grow by looking 
+        into their interests and their concerns. Chambers of commerce can also
+         receive a mandate from local authorities to execute government policy 
+         such as encouraging foreign investment or companies to create local 
+         establishments. The local government many also choose to fund the activities
+         of the Chamber of commerce towards meetings these goals. A Chamber of commerce
+         to  can also serve the purpose of providing business resourcestraders.
+         In most cases, being a member to a Chamber of commerce can only help 
+         and cause no harm. Moreover, statistics appear to indicate that members
+          of public find companies that belong to a Chamber of commerce are 
+          more trustworthy and provide better service and/or products.By joining a
+          Chamber of commerce, the business also has an opportunity to promote its
+          services and products to other businesses. At the same time, there is a
+          chance that the trader might meet potential business partners and/or
+          useful service providers This is because as a member of the Chamber, your 
+          business is viewed as a priority resource for the Chamber to tap into.
+           Hence the probability of them reaching out to your business first is generally higher.</p>
+      <div class="grid">
+           <div class="columnone">
+        <h3 class="weathertitle">Weather Summary</h3>
+      <div class="weathersummary">
+        <ul class="display">
+        <li>
+          Currently:
+          <span id="currently"></span>
+        </li>
+        <li>
+          Temp:
+          <span id="temperature"></span>
+          &#176;F
+        </li>
+        <li>
+          Humidity:
+          <span id="humidity"></span>
+          %
+        </li>
+        </ul>
+      </div>
+      </div>
+      <div class="columntwo">
+    <h4 class="forecastTitle">3 Day Forecast</h4>
+    <div class="forecastdiv">
+      <div class="daysofweek">
+        <div id="day1"></div>
+        <img src="#" alt="" id="image1" />
+        <div id="temperature1"></div>
+      </div>
+      <div class="daysofweek">
+        <div id="day2"></div>
+        <img src="#" alt="" id="image2" />
+        <div id="temperature2"></div>
+      </div>
+      <div class="daysofweek">
+        <div id="day3"></div>
+        <img src="#" alt="" id="image3" />
+        <div id="temperature3"></div>
+      </div>
+    </div>
+  </div>
+</div>
         <h2>Upcoming Summer Events</h2>
        <div class="upcomingevents">
         <img class="family" src="images/family.jpeg" alt="family">
@@ -164,7 +166,7 @@
         <span id="currentDate"></span>
       </p>  
           </footer>
-     
+    <script src="JS/home.js"></script> 
     <script src="JS/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   </main>

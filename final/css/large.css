@@ -21,6 +21,25 @@ display: grid;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
+  .imagegallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .columnone{
+    grid-column: 1/2;
+    margin: 10px;
+  }
+  .columntwo{
+    grid-column: 2/2;
+    margin: 10px;
+  }
+.weathersummary{
+  background-color: #3F826D ;
+    color: #F7F7FF;
+}
 
 }

@@ -13,7 +13,3 @@ function toggleMenu() {
    var dateString = day1[day] + ', ' + date + ' ' + month1[month] + ' ' + year;
    document.getElementById("currentDate").innerHTML = dateString;
 
-//Current Weather   
-
-
-//3 Day Forecast

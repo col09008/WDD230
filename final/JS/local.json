@@ -2,31 +2,38 @@
     "local": [
       {
         "name": "Juice City",
-        "number": "(714) 220-0053"
+        "number": "(714) 220-0053",
+        "length": "1"
       },
       {
         "name": "Albertacos Mexican Food",
-        "number": "(714) 220-2292"
+        "number": "(714) 220-2292",
+        "length": "2"
       },
       {
         "name": "Exotic Birds By Fran",
-        "number": "(714) 761-0868"
+        "number": "(714) 761-0868",
+        "length": "3"
       },
       {
         "name": "Artistic Nails",
-        "number": "(714) 484-0050"
+        "number": "(714) 484-0050",
+        "length": "4"
       },
       {
         "name": "Fashion Q",
-        "number": "(714) 934-8552"
+        "number": "(714) 934-8552",
+        "length": "5"
       },
       {
         "name": "Volcano Burger",
-        "number": "(714) 430-6004"
+        "number": "(714) 430-6004",
+        "length": "6"
       },
       {
-        "name": "John's Cypress",
-        "number": "(714) 527-0403"
+        "name": "Up and Up",
+        "number": "(714) 528-5465",
+        "length": "7"
       }
     ]
   }

@@ -91,9 +91,11 @@ header img {
     margin: 0;
     color: var(--secondary-color);
   }
-  li a:hover {
+
+  .nav_bar:hover, li a:hover {
     background-color: var(--accent3-color); 
   }  
+  
   
   li a:hover:not(.active) {
     background-color: var(--accent3-color);
@@ -351,4 +353,9 @@ box-shadow: 0 0 50px grey;
 }
 .galleryimage p{
   padding: 10px;
+}
+.cards{
+ display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
 }

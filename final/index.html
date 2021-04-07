@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Slabo+27px&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+
     <title>City Of Cypress</title>
   </head>
 
@@ -39,136 +42,154 @@
     </nav>
     <main>
       <div class="action">
-      <picture>
-        <source
-          srcset="images/cityhall.jpg"
-          media="(max-width: 1018px) and (min-width: 815px)"
+        <picture>
+          <source
+            srcset="images/cityhall.jpg"
+            media="(max-width: 1018px) and (min-width: 815px)"
+          />
+          <source srcset="images/cityhall.jpg" media="(min-width: 1018px)" />
+          <img src="images/cityhall.jpg" alt="heroimage" class="responsive" />
+        </picture>
+        <input
+          class="join"
+          type="button"
+          onClick="location.href='join.html'"
+          value="Join Now"
         />
-        <source srcset="images/cityhall.jpg" media="(min-width: 1018px)" />
-        <img src="images/cityhall.jpg" alt="heroimage" class="responsive" />
-      </picture>
-      <input class="join" type=button onClick="location.href='join.html'"
-      value='Join Now'>
       </div>
       <h2>Our Purpose</h2>
-      <p class="purpose">Our purpose is to is to help businesses grow by looking 
-        into their interests and their concerns. Chambers of commerce can also
-         receive a mandate from local authorities to execute government policy 
-         such as encouraging foreign investment or companies to create local 
-         establishments. The local government many also choose to fund the activities
-         of the Chamber of commerce towards meetings these goals. A Chamber of commerce
-         to  can also serve the purpose of providing business resourcestraders.
-         In most cases, being a member to a Chamber of commerce can only help 
-         and cause no harm. Moreover, statistics appear to indicate that members
-          of public find companies that belong to a Chamber of commerce are 
-          more trustworthy and provide better service and/or products.By joining a
-          Chamber of commerce, the business also has an opportunity to promote its
-          services and products to other businesses. At the same time, there is a
-          chance that the trader might meet potential business partners and/or
-          useful service providers This is because as a member of the Chamber, your 
-          business is viewed as a priority resource for the Chamber to tap into.
-           Hence the probability of them reaching out to your business first is generally higher.</p>
+      <p class="purpose">
+        Our purpose is to is to help businesses grow by looking into their
+        interests and their concerns. Chambers of commerce can also receive a
+        mandate from local authorities to execute government policy such as
+        encouraging foreign investment or companies to create local
+        establishments. The local government many also choose to fund the
+        activities of the Chamber of commerce towards meetings these goals. A
+        Chamber of commerce to can also serve the purpose of providing business
+        resourcestraders. In most cases, being a member to a Chamber of commerce
+        can only help and cause no harm. Moreover, statistics appear to indicate
+        that members of public find companies that belong to a Chamber of
+        commerce are more trustworthy and provide better service and/or
+        products.By joining a Chamber of commerce, the business also has an
+        opportunity to promote its services and products to other businesses. At
+        the same time, there is a chance that the trader might meet potential
+        business partners and/or useful service providers This is because as a
+        member of the Chamber, your business is viewed as a priority resource
+        for the Chamber to tap into. Hence the probability of them reaching out
+        to your business first is generally higher.
+      </p>
       <div class="grid">
-           <div class="columnone">
-        <h3 class="weathertitle">Weather Summary</h3>
-      <div class="weathersummary">
-        <ul class="display">
-        <li>
-          Currently:
-          <span id="currently"></span>
-        </li>
-        <li>
-          Temp:
-          <span id="temperature"></span>
-          &#176;F
-        </li>
-        <li>
-          Humidity:
-          <span id="humidity"></span>
-          %
-        </li>
-        </ul>
-      </div>
-      </div>
-      <div class="columntwo">
-    <h4 class="forecastTitle">3 Day Forecast</h4>
-    <div class="forecastdiv">
-      <div class="daysofweek">
-        <div id="day1"></div>
-        <img src="#" alt="" id="image1" />
-        <div id="temperature1"></div>
-      </div>
-      <div class="daysofweek">
-        <div id="day2"></div>
-        <img src="#" alt="" id="image2" />
-        <div id="temperature2"></div>
-      </div>
-      <div class="daysofweek">
-        <div id="day3"></div>
-        <img src="#" alt="" id="image3" />
-        <div id="temperature3"></div>
-      </div>
-    </div>
-  </div>
-</div>
-        <h2>Upcoming Summer Events</h2>
-       <div class="upcomingevents">
-        <img class="family" src="images/family.jpeg" alt="family">
-        <div class="events"> 
-        <table>
-          <tbody>
-          <tr>
-          <td>Summer Concerts on the Green</td>
-          <td>June-September</td>
-          <td>Cypress Civic Center Green 5275 Orange Avenue</td>
-          <td>(714) 229-6780</td>
-          </tr>
-          <tr>
-          <td>Cypress Community Festival </td>
-          <td>July</td>
-          <td>Oak Knoll Park 5700 Orange Avenue</td>
-          <td>(714) 229-6780</td>
-          </tr>
-          <tr>
-          <td>Fireworks Celebration</td>
-          <td>July 4th</td>
-          <td>Joint Forces Training Base 11200 Lexington Drive</td>
-          <td>(714) 229-6700</td>
-          </tr>
-          </tbody>
-          </table>
-        </div> 
+        <div class="columnone">
+          <h3 class="weathertitle">Weather Summary</h3>
+          <div class="weathersummary">
+            <ul class="display">
+              <li>
+                Currently:
+                <span id="currently"></span>
+              </li>
+              <li>
+                Temp:
+                <span id="temperature"></span>
+                &#176;F
+              </li>
+              <li>
+                Humidity:
+                <span id="humidity"></span>
+                %
+              </li>
+            </ul>
+          </div>
         </div>
-    <footer>
-      <div class="contact">
-        
-        <div class="address">
-          <h4>Contact Information</h4>
-          Cypress Chamber of Commerce<br />
-          9200 Valley View<br />
-          Cypress, CA 90630<br />
-          (714) 484-6015
-      </div>
-        <div class=social>
-            <div class="facebook">
-              <a href="https://www.facebook.com/" target="_blank"><img src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Ffacebook.png?1602301347206" alt="Facebook"></a>
+        <div class="columntwo">
+          <h4 class="forecastTitle">3 Day Forecast</h4>
+          <div class="forecastdiv">
+            <div class="daysofweek">
+              <div id="day1"></div>
+              <img src="#" alt="" id="image1" />
+              <div id="temperature1"></div>
             </div>
-            <div class="instagram">
-              <a href="https://www.instagram.com/" target="_blank"><img src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Finstagram.png?1602301368507" alt="Instagram"></a>
+            <div class="daysofweek">
+              <div id="day2"></div>
+              <img src="#" alt="" id="image2" />
+              <div id="temperature2"></div>
             </div>
-            <div class="youtube">
-              <a href="https://www.youtube.com/" target="_blank"><img src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Fyoutube.png?1602301386367" alt="Youtube"></a>
+            <div class="daysofweek">
+              <div id="day3"></div>
+              <img src="#" alt="" id="image3" />
+              <div id="temperature3"></div>
             </div>
           </div>
-          </div> 
-          <p class="footerp">
-        &#169; Final Project WDD 230 | Karina Weaver | Current Date:
-        <span id="currentDate"></span>
-      </p>  
-          </footer>
-    <script src="JS/home.js"></script> 
-    <script src="JS/main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-  </main>
+        </div>
+      </div>
+      <h2>Upcoming Summer Events</h2>
+      <div class="upcomingevents">
+        <img class="family" src="images/family.jpeg" alt="family" />
+        <div class="events">
+          <table>
+            <tbody>
+              <tr>
+                <td>Summer Concerts on the Green</td>
+                <td>June-September</td>
+                <td>Cypress Civic Center Green 5275 Orange Avenue</td>
+                <td>(714) 229-6780</td>
+              </tr>
+              <tr>
+                <td>Cypress Community Festival</td>
+                <td>July</td>
+                <td>Oak Knoll Park 5700 Orange Avenue</td>
+                <td>(714) 229-6780</td>
+              </tr>
+              <tr>
+                <td>Fireworks Celebration</td>
+                <td>July 4th</td>
+                <td>Joint Forces Training Base 11200 Lexington Drive</td>
+                <td>(714) 229-6700</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <footer>
+        <div class="contact">
+          <div class="address">
+            <h4>Contact Information</h4>
+            Cypress Chamber of Commerce<br />
+            9200 Valley View<br />
+            Cypress, CA 90630<br />
+            (714) 484-6015
+          </div>
+          <div class="social">
+            <div class="facebook">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img
+                  src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Ffacebook.png?1602301347206"
+                  alt="Facebook"
+              /></a>
+            </div>
+            <div class="instagram">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Finstagram.png?1602301368507"
+                  alt="Instagram"
+              /></a>
+            </div>
+            <div class="youtube">
+              <a href="https://www.youtube.com/" target="_blank"
+                ><img
+                  src="https://cdn.glitch.com/ed66c3d0-0fa1-440b-9031-75af525d2a42%2Fyoutube.png?1602301386367"
+                  alt="Youtube"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <p class="footerp">
+          &#169; Final Project WDD 230 | Karina Weaver | Current Date:
+          <span id="currentDate"></span>
+        </p>
+      </footer>
+      <script src="JS/home.js"></script>
+      <script src="JS/main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    </main>
   </body>
 </html>

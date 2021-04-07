@@ -1,5 +1,4 @@
-// Weather Summary
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4684724&units=imperial&APPID=df82f129a360f44ada124a66e5153051";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4684724&units=imperial&APPID=c393a6330a4f7f76d60604acccb72c17";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -11,9 +10,10 @@ fetch(apiURL)
     document.getElementById('humidity').innerHTML = town.main.humidity;
 });
 
-// 3 day forecast
 
-const apiURL_forecast = "https://api.openweathermap.org/data/2.5/weather?id=4684724&units=imperial&APPID=df82f129a360f44ada124a66e5153051";
+
+const apiURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=4684724&units=imperial&APPID=c393a6330a4f7f76d60604acccb72c17"
+
 fetch(apiURL_forecast)
     .then(response => response.json())
     .then((jsObject) => {
@@ -34,4 +34,3 @@ fetch(apiURL_forecast)
 	day++;	  
 	});
 });
-

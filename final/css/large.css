@@ -41,5 +41,10 @@ display: grid;
   background-color: #3F826D ;
     color: #F7F7FF;
 }
+.cards{
+  display: grid;
+   text-align: center;
+   grid-template-columns: 1fr 1fr 1fr;
+ }
 
 }

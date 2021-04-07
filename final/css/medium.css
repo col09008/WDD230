@@ -57,7 +57,11 @@ header h1 {
 header h5{
   font-size: 25px;
 }
-
+.cards{
+  display: grid;
+   text-align: center;
+   grid-template-columns: 1fr 1fr;
+ }
 }
 
 
